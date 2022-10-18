@@ -5,6 +5,11 @@ This vagrant will create two virtual machine:
 - Control Plane (Master) -> `master`
 - Node (Worker) -> `node1`
 
+## Ingredient
+
+- [Vagrant](https://www.vagrantup.com/downloads)
+- [Kubernetes Command-Line Tool](https://kubernetes.io/docs/tasks/tools/)
+
 ## How to run
 
 - Execute `vagrant up` to start the virtual machines. First time start will setup K3S cluster. 
